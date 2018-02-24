@@ -11,6 +11,14 @@ team.each_with_index do |name|
     puts "#{name}さん"
 end
 ```
+上記の他にも
+```
+team = ["佐藤","鈴木","田中","岸田","有森"]
+for i in team
+    puts "#{i}さん"
+end
+```
+などでも同じことが出来る。
 
 ## 出力結果  
 ```
